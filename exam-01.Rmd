@@ -114,7 +114,17 @@ top_destinations
 
 ```
 
-
+*** dest NumberOfFlights
+  ORD	17283	
+  ATL	17215	
+  LAX	16174	
+  BOS	15508	
+  MCO	14082	
+  CLT	14064	
+  SFO	13331	
+  FLL	12055	
+  MIA	11728	
+  DCA	9705 ***
 
 
 
@@ -134,8 +144,22 @@ top_departing
 
     
 ```
+***carrier
+<chr>
+NumberOfFlights
+<int>
+UA	58665	
+B6	54635	
+EV	54173	
+DL	48110	
+AA	32729	
+MQ	26397	
+US	20536	
+9E	18460	
+WN	12275	
+VX	5162	***
 
-
+***UA is.***
 
 3.  **Question 3 (10 points)** - Consider only flights that have non-missing arrival delay information.
     Your answer should include the name of the carrier in addition to the carrier code and the values asked.
